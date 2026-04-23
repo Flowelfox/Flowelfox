@@ -1,10 +1,3 @@
-<!--
-╔══════════════════════════════════════════════════════════════════════╗
-║   This file goes in github.com/Flowelfox/Flowelfox/README.md         ║
-║   (a repo with the same name as your username — GitHub profile magic)║
-╚══════════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
 ```
@@ -117,25 +110,21 @@ credit for.
 
 ```yaml
 # ─── primary stack ──────────────────────────────────────
-languages:   [ Python, Go ]
+languages:   [ Python, Go, TypeScript ]
 frameworks:  [ FastAPI, Flask, Django, Dash ]
 async:       [ asyncio, Celery, RabbitMQ, Redis ]
 data:        [ PostgreSQL (async), MySQL, MongoDB, Neo4j ]
-realtime:    [ WebSockets, REST, OAuth ]
+realtime:    [ WebSockets, REST, OAuth, Sockets, SSE]
 
 # ─── applied AI ─────────────────────────────────────────
-llms:        [ OpenAI, Anthropic ]
-patterns:    [ RAG, multi-agent systems, knowledge graphs ]
+llms:        [ OpenAI, Anthropic, Gemini, DeepSeek ]
+patterns:    [ RAG, multi-agent systems, knowledge graphs, context engineering]
 tooling:     [ LlamaIndex ]
 
 # ─── frontend & infra ───────────────────────────────────
 frontend:    [ React ]
-devops:      [ Docker, Linux, Nginx, GitHub Actions ]
-quality:     [ Pytest, Mypy, Ruff, Black ]
-
-# ─── philosophy ─────────────────────────────────────────
-style: "clarity, ownership, thoughtful engineering over hype.
-        reliable systems that age well > shiny demos that don't."
+devops:      [ Docker, Linux, Nginx, GitHub Actions, AWS, k8 ]
+quality:     [ Pytest, Mypy, Ruff, Ty ]
 ```
 
 ---
@@ -175,58 +164,3 @@ style: "clarity, ownership, thoughtful engineering over hype.
 <sub>_Lazily build with AI._</sub>
 
 </div>
-
-<!--
-╔══════════════════════════════════════════════════════════════════════╗
-║   SETUP NOTES                                                        ║
-║                                                                      ║
-║   1. SNAKE ANIMATION                                                 ║
-║      Create .github/workflows/snake.yml in this repo with:           ║
-║                                                                      ║
-║      name: Generate Snake                                            ║
-║      on:                                                             ║
-║        schedule: [{ cron: "0 */6 * * *" }]                           ║
-║        workflow_dispatch:                                            ║
-║      jobs:                                                           ║
-║        build:                                                        ║
-║          runs-on: ubuntu-latest                                      ║
-║          steps:                                                      ║
-║            - uses: Platane/snk/svg-only@v3                           ║
-║              with:                                                   ║
-║                github_user_name: Flowelfox                           ║
-║                outputs: |                                            ║
-║                  dist/github-contribution-grid-snake-dark.svg        ║
-║                  ?palette=github-dark&color_snake=orange             ║
-║            - uses: crazy-max/ghaction-github-pages@v3                ║
-║              with:                                                   ║
-║                target_branch: output                                 ║
-║                build_dir: dist                                       ║
-║              env:                                                    ║
-║                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}             ║
-║                                                                      ║
-║      Then go to the Actions tab → "Generate Snake" → Run workflow    ║
-║      once to seed it. After that it refreshes every 6h automatically.║
-║                                                                      ║
-║   2. COLOR TWEAKS                                                    ║
-║      Accent color is #FF8C00 (warm amber orange). Find/replace:      ║
-║        - Brighter neon:   #FFA500                                    ║
-║        - Deep amber:      #FFB000                                    ║
-║        - Safety orange:   #FF6B00                                    ║
-║      Stats widgets use theme=gruvbox. Other orange-friendly themes:  ║
-║      "radical", "onedark".                                           ║
-║                                                                      ║
-║   3. THINGS TO DOUBLE-CHECK                                          ║
-║      - All four repos (RCFlow, worktree-manager, codegraph)          ║
-║        should render. If one doesn't, verify the slug.               ║
-║      - Email uses flowelfox+githubprofile@protonmail.com (a         ║
-║        plus-alias for filtering). Swap if you prefer a different    ║
-║        address for public contact.                                  ║
-║                                                                      ║
-║   4. OPTIONAL REFINEMENTS                                            ║
-║      - Add a "blog" or "talks" section if applicable                 ║
-║      - Swap the yaml stack block for logo badges (commented example  ║
-║        available in earlier drafts — ask if you want it back)        ║
-║      - Add a "now" section for what you're working on this month     ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
--->
