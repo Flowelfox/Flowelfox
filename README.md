@@ -39,38 +39,22 @@ credit for.
 
 ## `~/projects $ ls -la ./pet-projects/`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
 <a href="https://github.com/Flowelfox/RCFlow">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=RCFlow&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
 </a>
-
-</td>
-<td width="50%" valign="top">
-
 <a href="https://github.com/Flowelfox/worktree-manager">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=worktree-manager&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
 </a>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="top">
-
-<!--
-  Third slot: Code Graph Generator (Go + Tree-sitter).
-  Centered in its row so the fixed-width card doesn't look stretched.
--->
-
 <a href="https://github.com/Flowelfox/codegraph">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=codegraph&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
 </a>
+<a href="https://github.com/Flowelfox/monobank-daily">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=monobank-daily&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
+</a>
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
