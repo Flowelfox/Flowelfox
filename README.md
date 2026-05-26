@@ -51,15 +51,7 @@ credit for.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.svg?v=2" alt="Metrics" />
-
 <img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.languages.svg?v=2" alt="Top languages" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Flowelfox&theme=gruvbox&hide_border=true&background=0D1117&stroke=FF8C00&ring=FF8C00&fire=FF8C00&currStreakLabel=FF8C00" />
 
 </div>
 
