@@ -33,6 +33,8 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_analysis_timeout: 15
           plugin_languages_sections: most-used
+          extras_css: |
+            h2 { display: none !important; }
 
       - name: Metrics — featured repositories
         uses: lowlighter/metrics@latest

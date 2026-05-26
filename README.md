@@ -51,7 +51,7 @@ credit for.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.languages.svg?v=2" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.languages.svg?v=3" alt="Top languages" />
 
 </div>
 
