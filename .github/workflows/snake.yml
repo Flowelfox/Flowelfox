@@ -33,8 +33,6 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_analysis_timeout: 15
           plugin_languages_sections: most-used
-          extras_css: |
-            h2 { display: none !important; }
 
       - name: Metrics — featured repositories
         uses: lowlighter/metrics@latest
@@ -55,6 +53,7 @@ jobs:
         run: |
           sudo cp /metrics_renders/dist/*.svg dist/
           sudo chown -R "$USER":"$USER" dist/
+          python3 -c "import re; p='dist/metrics.languages.svg'; d=open(p).read(); open(p,'w').write(re.sub(r'<h2\b[^>]*>.*?</h2>', '', d, flags=re.DOTALL))"
           ls -la dist/
 
       - uses: crazy-max/ghaction-github-pages@v3
