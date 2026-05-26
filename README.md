@@ -41,7 +41,7 @@ credit for.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.repos.svg" alt="Featured repositories" />
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.repos.svg?v=2" alt="Featured repositories" />
 
 </div>
 
@@ -51,9 +51,9 @@ credit for.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.svg" alt="Metrics" />
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.svg?v=2" alt="Metrics" />
 
-<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.languages.svg" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.languages.svg?v=2" alt="Top languages" />
 
 </div>
 
