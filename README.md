@@ -41,18 +41,7 @@ credit for.
 
 <div align="center">
 
-<a href="https://github.com/Flowelfox/RCFlow">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=RCFlow&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
-</a>
-<a href="https://github.com/Flowelfox/worktree-manager">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=worktree-manager&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
-</a>
-<a href="https://github.com/Flowelfox/codegraph">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=codegraph&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
-</a>
-<a href="https://github.com/Flowelfox/monobank-daily">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Flowelfox&repo=monobank-daily&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00" />
-</a>
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.repos.svg" alt="Featured repositories" />
 
 </div>
 
@@ -62,9 +51,9 @@ credit for.
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Flowelfox&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&icon_color=FF8C00&count_private=true&include_all_commits=true" />
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.svg" alt="Metrics" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Flowelfox&layout=compact&theme=gruvbox&hide_border=true&bg_color=0D1117&title_color=FF8C00&text_color=C9D1D9&langs_count=8" />
+<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.languages.svg" alt="Top languages" />
 
 </div>
 
