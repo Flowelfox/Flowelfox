@@ -65,6 +65,12 @@ jobs:
           plugin_repositories_random: 0
           plugin_repositories_order: featured
 
+      - name: Collect metrics SVGs into dist
+        run: |
+          sudo cp /metrics_renders/dist/*.svg dist/
+          sudo chown -R "$USER":"$USER" dist/
+          ls -la dist/
+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
