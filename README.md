@@ -37,16 +37,6 @@ credit for.
 
 ---
 
-## `~/projects $ ls -la ./pet-projects/`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Flowelfox/Flowelfox/output/metrics.repos.svg?v=2" alt="Featured repositories" />
-
-</div>
-
----
-
 ## `~/stats $ ./show-metrics.sh`
 
 <div align="center">

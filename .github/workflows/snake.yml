@@ -34,21 +34,6 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_sections: most-used
 
-      - name: Metrics — featured repositories
-        uses: lowlighter/metrics@latest
-        with:
-          filename: dist/metrics.repos.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Flowelfox
-          output_action: none
-          base: ""
-          plugin_repositories: yes
-          plugin_repositories_featured: Flowelfox/RCFlow, Flowelfox/worktree-manager, Flowelfox/codegraph, Flowelfox/monobank-daily
-          plugin_repositories_pinned: 0
-          plugin_repositories_starred: 0
-          plugin_repositories_random: 0
-          plugin_repositories_order: featured
-
       - name: Collect metrics SVGs into dist
         run: |
           sudo cp /metrics_renders/dist/*.svg dist/
