@@ -55,6 +55,12 @@ credit for.
 
 </div>
 
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Flowelfox&theme=gruvbox&hide_border=true&background=0D1117&stroke=FF8C00&ring=FF8C00&fire=FF8C00&currStreakLabel=FF8C00" />
+
+</div>
+
 ---
 
 ## `~/activity $ tail -f contributions.log`
